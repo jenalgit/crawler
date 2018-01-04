@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('crawler', 'CrawlerController@crawler');
+
+Route::get('dhkt', 'CrawlerController@crawlerDHKT');
